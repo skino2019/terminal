@@ -12,8 +12,8 @@ const App = ({ Component, pageProps }) => {
         />
       </Head>
 
-      <div className="text-light-foreground dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base">
-        <main className="bg-light-background dark:bg-dark-background w-full h-full p-2">
+      <div className="text-light-normbg dark:text-dark-foreground min-w-max text-xs md:min-w-full md:text-base">
+        <main className="bg-light-bg dark:bg-light-bg w-full h-full p-2">
           <Component {...pageProps} />
         </main>
       </div>
